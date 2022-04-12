@@ -1,0 +1,23 @@
+# github.com/adam-lavrik/go-imath v0.0.0-20210910152346-265a42a96f0b
+## explicit
+github.com/adam-lavrik/go-imath/ix
+github.com/adam-lavrik/go-imath/ux
+# github.com/gorilla/mux v1.8.0
+## explicit; go 1.12
+# github.com/julienschmidt/httprouter v1.3.0
+## explicit; go 1.7
+github.com/julienschmidt/httprouter
+# github.com/julienschmidt/sse v0.0.0-20190921213156-72db694fe9e6
+## explicit; go 1.7
+github.com/julienschmidt/sse
+# github.com/kardianos/service v1.2.1
+## explicit; go 1.12
+github.com/kardianos/service
+# golang.org/x/sys v0.0.0-20201015000850-e3ed0017c211
+## explicit; go 1.12
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/windows
+golang.org/x/sys/windows/registry
+golang.org/x/sys/windows/svc
+golang.org/x/sys/windows/svc/eventlog
+golang.org/x/sys/windows/svc/mgr
