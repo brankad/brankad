@@ -1,6 +1,20 @@
-#test-title {
-    font-size: large;
-}
 button {
-    background-color: gray;
+    background-color: #e8b27f;
 }
+
+#ask-button {
+    background-color: aquamarine;
+}
+@charset "UTF-8";
+body {
+    background-color: #f1fbf9;
+}
+placeholder {
+    color: #f8f7f4;
+    font-size: 1.5px;
+}
+
+/*label {*/
+/*    cursor: default;*/
+/*    background-color: beige;*/
+/*}*/

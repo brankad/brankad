@@ -1,5 +1,3 @@
-const testButton = document.getElementById("test-button")
-const buttonTime = document.getElementById("button-time")
 const from = document.getElementById("from")
 const to = document.getElementById("to")
 const askButton = document.getElementById("ask-button")
@@ -24,13 +22,13 @@ askButton.addEventListener("click", function () {
         response.text().then(function (data) {
             let result = JSON.parse(data);
             console.log(result)
-            askTime.textContent = "Measured shorter distance " + result["Duration"] + " departure time " + result["Time"]
+            if (result["RespCode"] == 1){
+                askTime.textContent = "Measured shorter distance " + result["Duration"] + " next departure time " + result["Time"]
+            } else {
+                askTime.textContent = result["Text"]
+            }
         });
     }).catch((error) => {
         console.log(error)
     });
-})
-
-askButton.addEventListener("click", function () {
-    askTime.textContent = "new button clicked"
 })

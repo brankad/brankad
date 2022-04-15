@@ -13,6 +13,7 @@ type DataOutput struct {
 	Result string
 	Text string
 	Time string
+	RespCode int
 	Duration int
 }
 
