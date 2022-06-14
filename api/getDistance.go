@@ -32,6 +32,9 @@ func GetDistance(writer http.ResponseWriter, request *http.Request, params httpr
 		writer.Header().Set("Content-Type", "application/json")
 		_ = json.NewEncoder(writer).Encode(responseData)
 		return
+
+
+
 	}
 
 	url:= SwissTransportURL + DistanceAPI + "?from="+data.From+"&to="+data.To
